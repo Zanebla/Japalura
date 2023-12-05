@@ -12,7 +12,7 @@ const TAG = 'imageEdit_Decode';
 async function getResourceFd(pageContent) {
     const context = getContext(pageContent);
     const resourceMgr = context.resourceManager;
-    let imageBuffer = await resourceMgr.getMediaContent({ "id": 16777264, "type": 20000, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" });
+    let imageBuffer = await resourceMgr.getMediaContent({ "id": 16777265, "type": 20000, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" });
     let filePath = context.cacheDir + '/' + CommonConstants.RAW_FILE_NAME;
     let file = fs.openSync(filePath, fs.OpenMode.READ_WRITE | fs.OpenMode.CREATE);
     fs.writeSync(file.fd, imageBuffer.buffer);

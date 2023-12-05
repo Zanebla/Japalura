@@ -91,9 +91,9 @@ class HomePage extends ViewPU {
         });
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-            Text.create({ "id": 16777226, "type": 10003, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" });
+            Text.create({ "id": 16777227, "type": 10003, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" });
             Text.fontColor(Color.Red);
-            Text.fontSize({ "id": 16777249, "type": 10002, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" });
+            Text.fontSize({ "id": 16777250, "type": 10002, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" });
             if (!isInitialRender) {
                 Text.pop();
             }
@@ -128,8 +128,8 @@ class HomePage extends ViewPU {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Text.create(name);
             Text.fontColor(this.currentIndex === index ? Color.Blue : Color.White);
-            Text.fontSize({ "id": 16777240, "type": 10002, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" });
-            Text.margin({ top: { "id": 16777241, "type": 10002, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" } });
+            Text.fontSize({ "id": 16777241, "type": 10002, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" });
+            Text.margin({ top: { "id": 16777242, "type": 10002, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" } });
             if (!isInitialRender) {
                 Text.pop();
             }
@@ -297,9 +297,9 @@ class HomePage extends ViewPU {
         });
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-            Image.create({ "id": 16777269, "type": 20000, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" });
-            Image.width({ "id": 16777252, "type": 10002, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" });
-            Image.height({ "id": 16777251, "type": 10002, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" });
+            Image.create({ "id": 16777270, "type": 20000, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" });
+            Image.width({ "id": 16777253, "type": 10002, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" });
+            Image.height({ "id": 16777252, "type": 10002, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" });
             if (!isInitialRender) {
                 Image.pop();
             }
@@ -315,11 +315,11 @@ class HomePage extends ViewPU {
             Button.backgroundColor(Color.Transparent);
             Button.onClick(() => {
                 AlertDialog.show({
-                    title: { "id": 16777232, "type": 10003, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" },
-                    message: { "id": 16777223, "type": 10003, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" },
+                    title: { "id": 16777233, "type": 10003, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" },
+                    message: { "id": 16777224, "type": 10003, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" },
                     alignment: DialogAlignment.Center,
                     primaryButton: {
-                        value: { "id": 16777231, "type": 10003, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" },
+                        value: { "id": 16777232, "type": 10003, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" },
                         action: () => {
                             if (this.pixelMap) {
                                 encode(this, this.pixelMap);
@@ -327,7 +327,7 @@ class HomePage extends ViewPU {
                         }
                     },
                     secondaryButton: {
-                        value: { "id": 16777222, "type": 10003, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" },
+                        value: { "id": 16777223, "type": 10003, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" },
                         action: () => {
                             Logger.info(TAG, `cancel`);
                         }
@@ -341,9 +341,9 @@ class HomePage extends ViewPU {
         });
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-            Image.create({ "id": 16777274, "type": 20000, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" });
-            Image.width({ "id": 16777252, "type": 10002, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" });
-            Image.height({ "id": 16777251, "type": 10002, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" });
+            Image.create({ "id": 16777275, "type": 20000, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" });
+            Image.width({ "id": 16777253, "type": 10002, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" });
+            Image.height({ "id": 16777252, "type": 10002, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" });
             if (!isInitialRender) {
                 Image.pop();
             }
@@ -480,8 +480,8 @@ class HomePage extends ViewPU {
                         this.observeComponentCreation((elmtId, isInitialRender) => {
                             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
                             Image.create(this.currentCropIndex === index ? item === null || item === void 0 ? void 0 : item.chosen : item === null || item === void 0 ? void 0 : item.normal);
-                            Image.width({ "id": 16777243, "type": 10002, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" });
-                            Image.height({ "id": 16777242, "type": 10002, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" });
+                            Image.width({ "id": 16777244, "type": 10002, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" });
+                            Image.height({ "id": 16777243, "type": 10002, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" });
                             Image.onClick(() => {
                                 if (index) {
                                     this.currentCropIndex = index;
@@ -504,7 +504,7 @@ class HomePage extends ViewPU {
                 Row.pop();
             });
             TabContent.tabBar({ builder: () => {
-                    this.TabBuilderMenu.call(this, MainTabId.CROP, { "id": 16777224, "type": 10003, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" });
+                    this.TabBuilderMenu.call(this, MainTabId.CROP, { "id": 16777225, "type": 10003, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" });
                 } });
             if (!isInitialRender) {
                 TabContent.pop();
@@ -528,9 +528,9 @@ class HomePage extends ViewPU {
                 });
                 this.observeComponentCreation((elmtId, isInitialRender) => {
                     ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-                    Image.create({ "id": 16777259, "type": 20000, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" });
-                    Image.width({ "id": 16777245, "type": 10002, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" });
-                    Image.height({ "id": 16777244, "type": 10002, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" });
+                    Image.create({ "id": 16777260, "type": 20000, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" });
+                    Image.width({ "id": 16777246, "type": 10002, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" });
+                    Image.height({ "id": 16777245, "type": 10002, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" });
                     Image.margin({ right: CommonConstants.EDIT_PAGE_HEIGHT });
                     Image.onClick(() => {
                         this.rotateImage(RotateType.CLOCKWISE);
@@ -542,9 +542,9 @@ class HomePage extends ViewPU {
                 });
                 this.observeComponentCreation((elmtId, isInitialRender) => {
                     ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-                    Image.create({ "id": 16777256, "type": 20000, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" });
-                    Image.width({ "id": 16777245, "type": 10002, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" });
-                    Image.height({ "id": 16777244, "type": 10002, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" });
+                    Image.create({ "id": 16777257, "type": 20000, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" });
+                    Image.width({ "id": 16777246, "type": 10002, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" });
+                    Image.height({ "id": 16777245, "type": 10002, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" });
                     Image.onClick(async () => {
                         this.rotateImage(RotateType.ANTI_CLOCK);
                     });
@@ -556,7 +556,7 @@ class HomePage extends ViewPU {
                 Row.pop();
             });
             TabContent.tabBar({ builder: () => {
-                    this.TabBuilderMenu.call(this, MainTabId.ROTATE, { "id": 16777229, "type": 10003, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" });
+                    this.TabBuilderMenu.call(this, MainTabId.ROTATE, { "id": 16777230, "type": 10003, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" });
                 } });
             if (!isInitialRender) {
                 TabContent.pop();
@@ -581,7 +581,7 @@ class HomePage extends ViewPU {
                 }
             });
             TabContent.tabBar({ builder: () => {
-                    this.TabBuilderMenu.call(this, MainTabId.ADJUST, { "id": 16777220, "type": 10003, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" });
+                    this.TabBuilderMenu.call(this, MainTabId.ADJUST, { "id": 16777221, "type": 10003, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" });
                 } });
             if (!isInitialRender) {
                 TabContent.pop();

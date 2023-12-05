@@ -46,8 +46,8 @@ export default class AdjustContentView extends ViewPU {
             var _a, _b;
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Image.create(this.currentAdjustIndex === index ? (_a = this.AdjustIconList[index]) === null || _a === void 0 ? void 0 : _a.chosen : (_b = this.AdjustIconList[index]) === null || _b === void 0 ? void 0 : _b.normal);
-            Image.width({ "id": 16777237, "type": 10002, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" });
-            Image.height({ "id": 16777236, "type": 10002, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" });
+            Image.width({ "id": 16777238, "type": 10002, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" });
+            Image.height({ "id": 16777237, "type": 10002, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" });
             if (!isInitialRender) {
                 Image.pop();
             }
@@ -57,8 +57,8 @@ export default class AdjustContentView extends ViewPU {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Text.create(name);
             Text.fontColor(this.currentAdjustIndex === index ? Color.Blue : Color.White);
-            Text.fontSize({ "id": 16777235, "type": 10002, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" });
-            Text.margin({ top: { "id": 16777239, "type": 10002, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" } });
+            Text.fontSize({ "id": 16777236, "type": 10002, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" });
+            Text.margin({ top: { "id": 16777240, "type": 10002, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" } });
             if (!isInitialRender) {
                 Text.pop();
             }
@@ -83,7 +83,7 @@ export default class AdjustContentView extends ViewPU {
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Tabs.create({ barPosition: BarPosition.End });
-            Tabs.margin({ bottom: { "id": 16777238, "type": 10002, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" } });
+            Tabs.margin({ bottom: { "id": 16777239, "type": 10002, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" } });
             Tabs.onChange((index) => {
                 this.currentAdjustIndex = index;
             });
@@ -118,7 +118,7 @@ export default class AdjustContentView extends ViewPU {
                 }
             });
             TabContent.tabBar({ builder: () => {
-                    this.TabBuilder.call(this, AdjustId.BRIGHTNESS, { "id": 16777221, "type": 10003, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" });
+                    this.TabBuilder.call(this, AdjustId.BRIGHTNESS, { "id": 16777222, "type": 10003, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" });
                 } });
             if (!isInitialRender) {
                 TabContent.pop();
@@ -152,7 +152,7 @@ export default class AdjustContentView extends ViewPU {
                 }
             });
             TabContent.tabBar({ builder: () => {
-                    this.TabBuilder.call(this, AdjustId.TRANSPARENCY, { "id": 16777233, "type": 10003, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" });
+                    this.TabBuilder.call(this, AdjustId.TRANSPARENCY, { "id": 16777234, "type": 10003, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" });
                 } });
             if (!isInitialRender) {
                 TabContent.pop();
@@ -186,7 +186,7 @@ export default class AdjustContentView extends ViewPU {
                 }
             });
             TabContent.tabBar({ builder: () => {
-                    this.TabBuilder.call(this, AdjustId.SATURATION, { "id": 16777230, "type": 10003, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" });
+                    this.TabBuilder.call(this, AdjustId.SATURATION, { "id": 16777231, "type": 10003, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" });
                 } });
             if (!isInitialRender) {
                 TabContent.pop();
@@ -316,8 +316,8 @@ class SliderCustom extends ViewPU {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Text.create(`${this.currentAdjustData[this.currentIndex]}`);
             Text.fontColor(Color.White);
-            Text.margin({ top: { "id": 16777248, "type": 10002, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" } });
-            Text.fontSize({ "id": 16777247, "type": 10002, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" });
+            Text.margin({ top: { "id": 16777249, "type": 10002, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" } });
+            Text.fontSize({ "id": 16777248, "type": 10002, params: [], "bundleName": "com.example.imagetestharmony", "moduleName": "entry" });
             if (!isInitialRender) {
                 Text.pop();
             }
